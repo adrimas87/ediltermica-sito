@@ -26,6 +26,14 @@
       "zoom": 100,
       "immagine": "img/cem.png",
       "alt": "Piazzale1"
+    },
+    {
+      "formato": "orizzontale",
+      "posX": 50,
+      "posY": 50,
+      "zoom": 100,
+      "alt": "piazzale",
+      "immagine": "img/mattoni.png"
     }
   ]
 }
