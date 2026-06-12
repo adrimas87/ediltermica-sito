@@ -400,7 +400,7 @@ h3 { font-size: 1.2rem; }
   background: var(--text); color: var(--bg);
   padding: .8rem 1.2rem; border-radius: 999px;
   font-size: .92rem; font-weight: 500; box-shadow: var(--shadow);
-  opacity: 0; pointer-events: none; z-index: 200;
+  opacity: 0; pointer-events: none; z-index: 10001;
   transition: opacity .25s ease, transform .25s ease;
 }
 .et-toast.show { opacity: 1; transform: translate(-50%, 0); }
