@@ -296,7 +296,7 @@ h3 { font-size: 1.2rem; }
 .cat-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); border-color: color-mix(in srgb, var(--primary) 40%, var(--border)); }
 .cat-card figure { margin: 0; overflow: hidden; }
 .cat-card figure img {
-  width: 100%; aspect-ratio: 16/10; object-fit: cover; display: block;
+  width: 100%; aspect-ratio: var(--cat-img-aspect, 16/10); object-fit: cover; display: block;
   transition: transform .4s ease;
 }
 .cat-card:hover figure img { transform: scale(1.06); }

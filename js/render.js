@@ -52,9 +52,12 @@
   }
 
   function repartoCard(r) {
+    var px = (r.posX == null || r.posX === '') ? 50 : r.posX;
+    var py = (r.posY == null || r.posY === '') ? 50 : r.posY;
+    var pos = ' style="object-position:' + px + '% ' + py + '%"';
     return '' +
       '<article class="cat-card">' +
-        '<figure><img src="' + r.immagine + '" alt="' + (r.titolo || '') + '" loading="lazy" /></figure>' +
+        '<figure><img src="' + r.immagine + '" alt="' + (r.titolo || '') + '" loading="lazy"' + pos + ' /></figure>' +
         '<div class="cat-body">' +
           '<h3>' + r.titolo + '</h3>' +
           '<p>' + r.descrizione + '</p>' +
@@ -198,6 +201,9 @@
     if (site) {
       applyBindings(site);
       buildStats(site.stats);
+      if (site.reparti && site.reparti.altezzaFoto) {
+        document.documentElement.style.setProperty('--cat-img-aspect', site.reparti.altezzaFoto);
+      }
     }
     if (reparti && reparti.items) buildReparti(reparti.items);
     if (galleria && galleria.items) buildGalleria(galleria.items);

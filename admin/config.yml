@@ -89,6 +89,18 @@ collections:
               - { label: "Etichetta", name: "eyebrow", widget: "string" }
               - { label: "Titolo", name: "titolo", widget: "string" }
               - { label: "Sottotitolo", name: "lead", widget: "text" }
+              - label: "Formato finestra foto reparti"
+                name: "altezzaFoto"
+                widget: "select"
+                default: "16/10"
+                hint: "Forma del riquadro foto, uguale per tutti i reparti."
+                options:
+                  - { label: "Panoramica (16:9)", value: "16/9" }
+                  - { label: "Larga (16:10)", value: "16/10" }
+                  - { label: "Classica (3:2)", value: "3/2" }
+                  - { label: "Foto (4:3)", value: "4/3" }
+                  - { label: "Quadrata (1:1)", value: "1/1" }
+                  - { label: "Verticale (4:5)", value: "4/5" }
 
           - label: "Intestazione sezione Punto vendita"
             name: "puntoVendita"
@@ -178,6 +190,8 @@ collections:
               - { label: "Titolo", name: "titolo", widget: "string" }
               - { label: "Descrizione", name: "descrizione", widget: "text" }
               - { label: "Immagine", name: "immagine", widget: "image" }
+              - { label: "Posizione orizzontale (0 = sinistra · 50 = centro · 100 = destra)", name: "posX", widget: "number", default: 50, value_type: "int", min: 0, max: 100, required: false }
+              - { label: "Posizione verticale (0 = alto · 50 = centro · 100 = basso)", name: "posY", widget: "number", default: 50, value_type: "int", min: 0, max: 100, required: false }
 
   # ----------------------------------------------------------------------
   - name: "galleria"
