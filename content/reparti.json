@@ -19,6 +19,9 @@
     { "titolo": "Giardinaggio & agricoltura", "descrizione": "Attrezzi, decespugliatori, pompe per irrorazione, sementi e prodotti per orto e giardino.", "immagine": "img/giardinaggio.jpg" },
     { "titolo": "Casalinghi", "descrizione": "Pentolame, contenitori, articoli per la pulizia e tutto l'utile per la casa.", "immagine": "img/casalinghi.jpg" },
     { "titolo": "Pet & animali", "descrizione": "Croccantini per cani e gatti, mangimi, accessori e articoli per l'allevamento.", "immagine": "img/pet.jpg" },
-    { "titolo": "Illuminazione", "descrizione": "Lampadine LED, plafoniere, fari, strisce e corpi illuminanti per interni ed esterni.", "immagine": "img/illuminazione.jpg" }
+    { "titolo": "Illuminazione", "descrizione": "Lampadine LED, plafoniere, fari, strisce e corpi illuminanti per interni ed esterni.", "immagine": "img/illuminazione.jpg" },
+    { "titolo": "Canne e tubazioni fumarie", "descrizione": "Canne fumarie, tubi e raccordi inox, comignoli e accessori per stufe, camini e caldaie.", "immagine": "img/canne-fumarie.jpg" },
+    { "titolo": "Tubature acqua di carico e scarico", "descrizione": "Tubi e raccordi per adduzione idrica e scarichi: multistrato, PE, PVC e accessori.", "immagine": "img/tubature.jpg" },
+    { "titolo": "Gronde e canali", "descrizione": "Grondaie, canali di gronda, pluviali, scossaline e accessori per lo smaltimento delle acque piovane.", "immagine": "img/gronde.jpg" }
   ]
 }
