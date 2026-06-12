@@ -1,5 +1,4 @@
 {
-  "logo": "img/logo.png",
   "reparti": {
     "eyebrow": "Cosa trovi da noi",
     "titolo": "I nostri reparti",
@@ -30,6 +29,7 @@
     "paragrafo2": "Un punto vendita ampio e rifornito a <strong>Gambatesa (CB)</strong>, al confine tra Molise e Puglia, con magazzino capiente, personale competente e servizio su misura: che tu debba ristrutturare un bagno o approvvigionare un cantiere, da noi trovi prodotto, prezzo e consiglio giusto.",
     "immagine": "img/maga-retro.png"
   },
+  "logo": "img/logo_trasparente-1-.png",
   "puntoVendita": {
     "eyebrow": "Il nostro punto vendita",
     "titolo": "Vieni a vedere di persona",
