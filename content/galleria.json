@@ -6,10 +6,12 @@
       "formato": "orizzontale"
     },
     {
-      "immagine": "img/gal-casalinghi.jpg",
-      "alt": "Reparto casalinghi",
       "formato": "orizzontale",
-      "posY": 0
+      "posX": 50,
+      "posY": 50,
+      "zoom": 100,
+      "alt": "Banco2",
+      "immagine": "img/banco2.png"
     }
   ]
 }
