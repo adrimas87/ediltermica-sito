@@ -6,6 +6,14 @@
       "formato": "orizzontale"
     },
     {
+      "formato": "orizzontale",
+      "posX": 50,
+      "posY": 50,
+      "zoom": 100,
+      "alt": "banco 2",
+      "immagine": "img/banco2.png"
+    },
+    {
       "immagine": "img/gal-casalinghi.jpg",
       "alt": "Reparto casalinghi",
       "formato": "orizzontale",
