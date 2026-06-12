@@ -43,6 +43,7 @@ collections:
         file: "content/site.json"
         format: "json"
         fields:
+          - { label: "Logo del sito", name: "logo", widget: "image", hint: "Compare nell'intestazione e nel footer del sito." }
           - label: "⚙️ Sito in aggiornamento (manutenzione)"
             name: "manutenzione"
             widget: "object"

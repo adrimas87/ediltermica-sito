@@ -1,4 +1,5 @@
 {
+  "logo": "img/logo.png",
   "reparti": {
     "eyebrow": "Cosa trovi da noi",
     "titolo": "I nostri reparti",
@@ -26,7 +27,7 @@
     "eyebrow": "Chi siamo",
     "titolo": "Un partner unico per il cantiere e la casa.",
     "paragrafo1": "EdilTermica Srl rifornisce imprese edili, artigiani e privati con un assortimento completo di materiali. La nostra forza è avere <strong>tutto in un unico posto</strong>: niente più fornitori diversi per ogni esigenza.",
-    "paragrafo2": "Due punti vendita tra <strong>Puglia e Molise</strong> — Celenza Valfortore (FG) e Gambatesa (CB) — con magazzino capiente, personale competente e servizio su misura: che tu debba ristrutturare un bagno o approvvigionare un cantiere, da noi trovi prodotto, prezzo e consiglio giusto.",
+    "paragrafo2": "Un punto vendita ampio e rifornito a <strong>Gambatesa (CB)</strong>, al confine tra Molise e Puglia, con magazzino capiente, personale competente e servizio su misura: che tu debba ristrutturare un bagno o approvvigionare un cantiere, da noi trovi prodotto, prezzo e consiglio giusto.",
     "immagine": "img/maga-retro.png"
   },
   "puntoVendita": {

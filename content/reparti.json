@@ -24,6 +24,7 @@
     { "titolo": "Tubature acqua di carico e scarico", "descrizione": "Tubi e raccordi per adduzione idrica e scarichi: multistrato, PE, PVC e accessori.", "immagine": "img/tubi-edil.jpg" },
     { "titolo": "Gronde e canali", "descrizione": "Grondaie, canali di gronda, pluviali, scossaline e accessori per lo smaltimento delle acque piovane.", "immagine": "img/gronde.jpg" },
     { "titolo": "Duplicazione chiavi e radiocomandi", "descrizione": "Duplichiamo chiavi di ogni tipo — casa, auto, lucchetti — e radiocomandi per auto, cancelli e garage.", "immagine": "img/chiavi.jpg" },
-    { "titolo": "Smalti", "descrizione": "Smalti per legno e ferro, sintetici e all'acqua, in molte tinte e finiture: lucido, satinato, opaco.", "immagine": "img/smalti.jpg" }
+    { "titolo": "Smalti", "descrizione": "Smalti per legno e ferro, sintetici e all'acqua, in molte tinte e finiture: lucido, satinato, opaco.", "immagine": "img/smalti.jpg" },
+    { "titolo": "Porte e portoni blindati", "descrizione": "Porte blindate, portoncini e portoni di sicurezza, serrature e accessori per la massima protezione.", "immagine": "img/porte-blindate.jpg" }
   ]
 }
