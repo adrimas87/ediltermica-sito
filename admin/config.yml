@@ -9,7 +9,7 @@ backend:
   name: github
   repo: adrimas87/ediltermica-sito         # repo del sito su GitHub
   branch: main
-  base_url: https://TUO-AUTH-WORKER.workers.dev   # <<<  URL dell'auth worker (login)
+  base_url: https://sveltia-cms-auth.mastronunzioadriano.workers.dev   # auth worker (login)
 
 # Test in locale del pannello senza login GitHub:
 #   1) in una finestra: npx decap-server
