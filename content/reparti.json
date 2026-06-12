@@ -134,6 +134,11 @@
       "titolo": "Piastrelle e rivestimenti",
       "descrizione": "Piastrelle, gres e ceramica per pavimenti e pareti, rivestimenti per bagno e cucina.",
       "immagine": "img/piastrelle.jpg"
+    },
+    {
+      "titolo": "Lamiere e pannelli coibentati",
+      "descrizione": "Lamiere grecate da copertura, pannelli coibentati e sandwich, accessori e fissaggi per tetti e capannoni.",
+      "immagine": "img/lamiere.jpg"
     }
   ]
 }
