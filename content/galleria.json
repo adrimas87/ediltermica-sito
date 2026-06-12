@@ -14,12 +14,6 @@
       "immagine": "img/banco2.png"
     },
     {
-      "immagine": "img/corr.png",
-      "alt": "Reparto casalinghi",
-      "formato": "verticale",
-      "posY": 80
-    },
-    {
       "formato": "orizzontale",
       "posX": 50,
       "posY": 50,
@@ -42,6 +36,12 @@
       "zoom": 100,
       "alt": "pazzale3",
       "immagine": "img/piazzale3.png"
+    },
+    {
+      "immagine": "img/corr.png",
+      "alt": "Reparto casalinghi",
+      "formato": "verticale",
+      "posY": 80
     }
   ]
 }
