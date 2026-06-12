@@ -2,23 +2,28 @@
   "items": [
     {
       "immagine": "img/gemini_generated_image_h74555h74555h745.png",
-      "alt": "Reparto ferramenta ed elettroutensili"
+      "alt": "Banco",
+      "formato": "orizzontale"
     },
     {
       "immagine": "img/gal-casalinghi.jpg",
-      "alt": "Reparto casalinghi"
+      "alt": "Reparto casalinghi",
+      "formato": "verticale"
     },
     {
-      "immagine": "img/gemini_generated_image_h74555h74555h745.png",
-      "alt": "Reparto giardinaggio e agricoltura"
+      "immagine": "img/gal-giardino.jpg",
+      "alt": "Reparto giardinaggio e agricoltura",
+      "formato": "verticale"
     },
     {
       "immagine": "img/gal-pet.jpg",
-      "alt": "Reparto prodotti per animali"
+      "alt": "Reparto prodotti per animali",
+      "formato": "verticale"
     },
     {
       "immagine": "img/gal-rete.jpg",
-      "alt": "Reti metalliche e recinzioni nel piazzale"
+      "alt": "Reti metalliche e recinzioni nel piazzale",
+      "formato": "quadrata"
     }
   ]
 }
