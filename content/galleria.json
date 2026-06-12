@@ -8,7 +8,8 @@
     {
       "immagine": "img/gal-casalinghi.jpg",
       "alt": "Reparto casalinghi",
-      "formato": "orizzontale"
+      "formato": "orizzontale",
+      "posY": 80
     }
   ]
 }
