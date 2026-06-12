@@ -1,17 +1,23 @@
 {
   "items": [
     {
-      "immagine": "img/banco.jpg",
+      "immagine": "img/gemini_generated_image_h74555h74555h745.png",
       "alt": "Banco",
       "formato": "orizzontale"
+    },
+    {
+      "immagine": "img/gal-casalinghi.jpg",
+      "alt": "Reparto casalinghi",
+      "formato": "orizzontale",
+      "posY": 80
     },
     {
       "formato": "orizzontale",
       "posX": 50,
       "posY": 50,
       "zoom": 100,
-      "alt": "Banco2",
-      "immagine": "img/gemini_generated_image_h74555h74555h745.png"
+      "immagine": "img/cem.png",
+      "alt": "Piazzale1"
     }
   ]
 }
