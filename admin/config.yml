@@ -213,3 +213,14 @@ collections:
             fields:
               - { label: "Immagine", name: "immagine", widget: "image" }
               - { label: "Descrizione (testo alternativo)", name: "alt", widget: "string" }
+              - label: "Formato"
+                name: "formato"
+                widget: "select"
+                default: "orizzontale"
+                options:
+                  - { label: "Orizzontale", value: "orizzontale" }
+                  - { label: "Quadrata", value: "quadrata" }
+                  - { label: "Verticale", value: "verticale" }
+              - { label: "Posizione orizzontale (0 = sinistra · 50 = centro · 100 = destra)", name: "posX", widget: "number", default: 50, value_type: "int", min: 0, max: 100, required: false }
+              - { label: "Posizione verticale (0 = alto · 50 = centro · 100 = basso)", name: "posY", widget: "number", default: 50, value_type: "int", min: 0, max: 100, required: false }
+              - { label: "Ingrandimento foto (100 = normale · max 300)", name: "zoom", widget: "number", default: 100, value_type: "int", min: 100, max: 300, required: false }

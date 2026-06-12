@@ -88,10 +88,16 @@
     if (!Array.isArray(items)) return;
     var grid = document.getElementById('gallery-grid');
     if (!grid) return;
-    grid.innerHTML = items.map(function (it, i) {
-      var cls = (i === 0) ? 'g-big' : 'g-cell';
+    grid.innerHTML = items.map(function (it) {
+      var f = it.formato || 'orizzontale';
+      var cls = (f === 'quadrata') ? 'g-quadrata' : (f === 'verticale' ? 'g-vert' : 'g-orizz');
+      var px = (it.posX == null || it.posX === '') ? 50 : it.posX;
+      var py = (it.posY == null || it.posY === '') ? 50 : it.posY;
+      var z = (it.zoom == null || it.zoom === '') ? 100 : (Number(it.zoom) || 100);
+      var style = ' style="object-position:' + px + '% ' + py + '%;--img-zoom:' + (z / 100) +
+        ';--img-origin:' + px + '% ' + py + '%"';
       return '<figure class="' + cls + '"><img src="' + it.immagine + '" alt="' +
-        (it.alt || '') + '" loading="lazy" /></figure>';
+        (it.alt || '') + '" loading="lazy"' + style + ' /></figure>';
     }).join('');
   }
 
