@@ -34,6 +34,14 @@
       "zoom": 100,
       "alt": "piazzale",
       "immagine": "img/mattoni.png"
+    },
+    {
+      "formato": "orizzontale",
+      "posX": 50,
+      "posY": 50,
+      "zoom": 100,
+      "alt": "pazzale3",
+      "immagine": "img/piazzale3.png"
     }
   ]
 }
