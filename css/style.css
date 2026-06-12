@@ -297,9 +297,10 @@ h3 { font-size: 1.2rem; }
 .cat-card figure { margin: 0; overflow: hidden; }
 .cat-card figure img {
   width: 100%; aspect-ratio: var(--cat-img-aspect, 16/10); object-fit: cover; display: block;
+  transform: scale(var(--img-zoom, 1)); transform-origin: var(--img-origin, 50% 50%);
   transition: transform .4s ease;
 }
-.cat-card:hover figure img { transform: scale(1.06); }
+.cat-card:hover figure img { transform: scale(calc(var(--img-zoom, 1) * 1.06)); }
 .cat-body { padding: 1.1rem 1.2rem 1.3rem; display: flex; flex-direction: column; gap: .35rem; flex: 1; }
 .cat-body h3 { color: var(--text); font-size: 1.08rem; margin: 0; }
 .cat-body p { color: var(--muted); margin: 0; font-size: .92rem; }

@@ -54,7 +54,10 @@
   function repartoCard(r) {
     var px = (r.posX == null || r.posX === '') ? 50 : r.posX;
     var py = (r.posY == null || r.posY === '') ? 50 : r.posY;
-    var pos = ' style="object-position:' + px + '% ' + py + '%"';
+    var z = (r.zoom == null || r.zoom === '') ? 100 : (Number(r.zoom) || 100);
+    var scale = z / 100;
+    var pos = ' style="object-position:' + px + '% ' + py + '%;--img-zoom:' + scale +
+      ';--img-origin:' + px + '% ' + py + '%"';
     return '' +
       '<article class="cat-card">' +
         '<figure><img src="' + r.immagine + '" alt="' + (r.titolo || '') + '" loading="lazy"' + pos + ' /></figure>' +

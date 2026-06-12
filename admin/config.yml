@@ -192,6 +192,7 @@ collections:
               - { label: "Immagine", name: "immagine", widget: "image" }
               - { label: "Posizione orizzontale (0 = sinistra · 50 = centro · 100 = destra)", name: "posX", widget: "number", default: 50, value_type: "int", min: 0, max: 100, required: false }
               - { label: "Posizione verticale (0 = alto · 50 = centro · 100 = basso)", name: "posY", widget: "number", default: 50, value_type: "int", min: 0, max: 100, required: false }
+              - { label: "Ingrandimento foto (100 = normale · 150 = più grande · max 300)", name: "zoom", widget: "number", default: 100, value_type: "int", min: 100, max: 300, required: false }
 
   # ----------------------------------------------------------------------
   - name: "galleria"
