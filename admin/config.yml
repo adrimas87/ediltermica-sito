@@ -1,0 +1,200 @@
+# ============================================================================
+#  Pannello EdilTermica (Decap CMS) — configurazione
+#  PRIMA DI USARLO sostituisci i 2 valori segnati con  <<<  qui sotto:
+#   1) backend.repo      -> "TUO-UTENTE-GITHUB/NOME-REPO"
+#   2) backend.base_url  -> l'URL del tuo auth worker (vedi README, sezione Pannello)
+# ============================================================================
+
+backend:
+  name: github
+  repo: adrimas87/ediltermica-sito         # repo del sito su GitHub
+  branch: main
+  base_url: https://TUO-AUTH-WORKER.workers.dev   # <<<  URL dell'auth worker (login)
+
+# Test in locale del pannello senza login GitHub:
+#   1) in una finestra: npx decap-server
+#   2) apri http://127.0.0.1:5173/admin/  (con il sito servito via http, non file://)
+# In produzione lascialo pure attivo: viene usato solo se trova decap-server in locale.
+local_backend: true
+
+# Le foto caricate dal pannello finiscono nella cartella img/ del sito.
+media_folder: "img"
+public_folder: "img"
+
+# Lingua dell'interfaccia
+locale: "it"
+
+# Messaggi di commit piu' chiari nello storico del repo
+backend_commit_messages:
+  create: "Aggiunto {{collection}} dal pannello"
+  update: "Aggiornato {{collection}} dal pannello"
+  delete: "Rimosso {{collection}} dal pannello"
+  uploadMedia: "Caricata immagine {{path}}"
+  deleteMedia: "Rimossa immagine {{path}}"
+
+collections:
+  # ----------------------------------------------------------------------
+  - name: "contenuti"
+    label: "Contenuti del sito"
+    delete: false
+    files:
+      - name: "site"
+        label: "Testi, contatti e orari"
+        file: "content/site.json"
+        format: "json"
+        fields:
+          - label: "⚙️ Sito in aggiornamento (manutenzione)"
+            name: "manutenzione"
+            widget: "object"
+            collapsed: false
+            fields:
+              - { label: "Attiva la modalità aggiornamento", name: "attiva", widget: "boolean", default: false, hint: "Se attiva, i clienti vedono solo logo, recapiti e il messaggio qui sotto." }
+              - { label: "Titolo", name: "titolo", widget: "string" }
+              - { label: "Messaggio", name: "messaggio", widget: "text" }
+
+          - label: "Hero (sezione iniziale)"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Etichetta sopra il titolo", name: "eyebrow", widget: "string" }
+              - { label: "Titolo (puoi andare a capo con <br>)", name: "titolo", widget: "text" }
+              - { label: "Sottotitolo", name: "sottotitolo", widget: "text", hint: "Puoi usare <strong>testo</strong> per il grassetto" }
+              - { label: "Immagine principale", name: "immagine", widget: "image" }
+              - { label: "Testo bottone 1", name: "bottonePrimario", widget: "string" }
+              - { label: "Testo bottone 2", name: "bottoneSecondario", widget: "string" }
+
+          - label: "Numeri in evidenza"
+            name: "stats"
+            widget: "list"
+            label_singular: "numero"
+            summary: "{{fields.numero}} — {{fields.label}}"
+            fields:
+              - { label: "Numero", name: "numero", widget: "string" }
+              - { label: "Descrizione", name: "label", widget: "string" }
+
+          - label: "Chi siamo"
+            name: "chiSiamo"
+            widget: "object"
+            fields:
+              - { label: "Etichetta", name: "eyebrow", widget: "string" }
+              - { label: "Titolo", name: "titolo", widget: "string" }
+              - { label: "Paragrafo 1", name: "paragrafo1", widget: "text" }
+              - { label: "Paragrafo 2", name: "paragrafo2", widget: "text" }
+              - { label: "Immagine", name: "immagine", widget: "image" }
+
+          - label: "Intestazione sezione Reparti"
+            name: "reparti"
+            widget: "object"
+            fields:
+              - { label: "Etichetta", name: "eyebrow", widget: "string" }
+              - { label: "Titolo", name: "titolo", widget: "string" }
+              - { label: "Sottotitolo", name: "lead", widget: "text" }
+
+          - label: "Intestazione sezione Punto vendita"
+            name: "puntoVendita"
+            widget: "object"
+            fields:
+              - { label: "Etichetta", name: "eyebrow", widget: "string" }
+              - { label: "Titolo", name: "titolo", widget: "string" }
+              - { label: "Sottotitolo", name: "lead", widget: "text" }
+
+          - label: "Dettaglio e ingrosso"
+            name: "dettaglioIngrosso"
+            widget: "object"
+            fields:
+              - { label: "Etichetta", name: "eyebrow", widget: "string" }
+              - { label: "Titolo", name: "titolo", widget: "string" }
+              - { label: "Card 1 — titolo", name: "card1Titolo", widget: "string" }
+              - { label: "Card 1 — testo", name: "card1Testo", widget: "text" }
+              - { label: "Card 2 — titolo", name: "card2Titolo", widget: "string" }
+              - { label: "Card 2 — testo", name: "card2Testo", widget: "text" }
+
+          - label: "Perché sceglierci"
+            name: "perche"
+            widget: "object"
+            fields:
+              - { label: "Etichetta", name: "eyebrow", widget: "string" }
+              - { label: "Titolo", name: "titolo", widget: "string" }
+              - { label: "Punto 1 — titolo", name: "item1Titolo", widget: "string" }
+              - { label: "Punto 1 — testo", name: "item1Testo", widget: "text" }
+              - { label: "Punto 2 — titolo", name: "item2Titolo", widget: "string" }
+              - { label: "Punto 2 — testo", name: "item2Testo", widget: "text" }
+              - { label: "Punto 3 — titolo", name: "item3Titolo", widget: "string" }
+              - { label: "Punto 3 — testo", name: "item3Testo", widget: "text" }
+              - { label: "Punto 4 — titolo", name: "item4Titolo", widget: "string" }
+              - { label: "Punto 4 — testo", name: "item4Testo", widget: "text" }
+
+          - label: "Banda invito (CTA)"
+            name: "ctaBand"
+            widget: "object"
+            fields:
+              - { label: "Titolo", name: "titolo", widget: "string" }
+              - { label: "Testo", name: "testo", widget: "text" }
+              - { label: "Testo bottone", name: "bottone", widget: "string" }
+
+          - label: "Contatti e orari"
+            name: "contatti"
+            widget: "object"
+            fields:
+              - { label: "Etichetta", name: "eyebrow", widget: "string" }
+              - { label: "Titolo", name: "titolo", widget: "string" }
+              - { label: "Introduzione", name: "intro", widget: "text" }
+              - { label: "Indirizzo punto vendita", name: "puntoVenditaIndirizzo", widget: "string" }
+              - { label: "Telefono (mostrato)", name: "telefono", widget: "string" }
+              - { label: "Telefono (per la chiamata, formato +39…)", name: "telefonoLink", widget: "string", hint: "Senza spazi, es. +390874719513" }
+              - { label: "Email", name: "email", widget: "string" }
+              - { label: "Sito (mostrato)", name: "sito", widget: "string" }
+              - { label: "Sito (link completo)", name: "sitoUrl", widget: "string" }
+              - { label: "Orari", name: "orari", widget: "text" }
+              - { label: "Nota orari/avvisi", name: "nota", widget: "text", hint: "Es. chiusure o festività. Puoi usare <strong>…</strong>" }
+              - { label: "Card contatti — titolo", name: "cardTitolo", widget: "string" }
+              - { label: "Card contatti — testo", name: "cardTesto", widget: "text" }
+
+          - label: "Footer (piè di pagina)"
+            name: "footer"
+            widget: "object"
+            fields:
+              - { label: "Descrizione", name: "descrizione", widget: "text" }
+              - { label: "Sede legale", name: "sedeLegale", widget: "string" }
+              - { label: "Punto vendita", name: "puntoVendita", widget: "string" }
+              - { label: "Dati legali (P.IVA, Reg. Imprese)", name: "legal", widget: "string" }
+
+  # ----------------------------------------------------------------------
+  - name: "reparti"
+    label: "Reparti"
+    delete: false
+    files:
+      - name: "reparti"
+        label: "Elenco reparti"
+        file: "content/reparti.json"
+        format: "json"
+        fields:
+          - label: "Reparti"
+            name: "items"
+            widget: "list"
+            label_singular: "reparto"
+            summary: "{{fields.titolo}}"
+            fields:
+              - { label: "Titolo", name: "titolo", widget: "string" }
+              - { label: "Descrizione", name: "descrizione", widget: "text" }
+              - { label: "Immagine", name: "immagine", widget: "image" }
+
+  # ----------------------------------------------------------------------
+  - name: "galleria"
+    label: "Galleria punto vendita"
+    delete: false
+    files:
+      - name: "galleria"
+        label: "Foto della galleria"
+        file: "content/galleria.json"
+        format: "json"
+        fields:
+          - label: "Foto"
+            name: "items"
+            widget: "list"
+            label_singular: "foto"
+            summary: "{{fields.alt}}"
+            hint: "La prima foto viene mostrata più grande."
+            fields:
+              - { label: "Immagine", name: "immagine", widget: "image" }
+              - { label: "Descrizione (testo alternativo)", name: "alt", widget: "string" }

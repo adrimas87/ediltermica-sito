@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="it" data-theme="moderno">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EdilTermica Srl — Materiale edile, dettaglio e ingrosso · Celenza Valfortore (FG) e Gambatesa (CB)</title>
+  <meta name="description" content="EdilTermica Srl: rivendita al dettaglio e all'ingrosso di materiale edile, ferramenta, pittura, cartongesso, legnami, elettrico, idraulico, sanitari, arredo bagno, termoidraulica, fotovoltaico e antinfortunistica. Sedi a Celenza Valfortore (FG) e Gambatesa (CB). Tel. 0874 719513." />
+
+  <meta property="og:title" content="EdilTermica Srl" />
+  <meta property="og:description" content="Tutto per l'edilizia: dettaglio e ingrosso. Ferramenta, idraulica, elettrico, pittura, sanitari, fotovoltaico e molto altro." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="EdilTermica Srl - home">
+        <img src="img/logo.png" alt="EdilTermica Srl" class="brand-logo" />
+      </a>
+
+      <nav class="main-nav" aria-label="Navigazione principale">
+        <a href="#chi-siamo">Azienda</a>
+        <a href="#reparti">Reparti</a>
+        <a href="#punto-vendita">Punto vendita</a>
+        <a href="#contatti">Contatti</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#contatti" class="btn btn-primary btn-sm header-cta">Contattaci</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Apri menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <p class="eyebrow" data-bind="hero.eyebrow">Dalle fondamenta alle rifiniture</p>
+        <h1 class="hero-title" data-bind="hero.titolo">Tutto ciò che ti occorre,<br />in un unico magazzino.</h1>
+        <p class="hero-sub" data-bind="hero.sottotitolo">
+          EdilTermica Srl è il punto di riferimento per il commercio
+          <strong>al dettaglio e all'ingrosso</strong> di materiale edile tra
+          <strong>Puglia e Molise</strong>. Dalla ferramenta al fotovoltaico, dai
+          sanitari all'idraulica: tutto sempre disponibile, per privati, imprese e professionisti.
+        </p>
+        <div class="hero-cta">
+          <a href="#reparti" class="btn btn-primary btn-lg" data-bind="hero.bottonePrimario">Scopri i reparti</a>
+          <a href="#contatti" class="btn btn-ghost btn-lg" data-bind="hero.bottoneSecondario">Richiedi un preventivo</a>
+        </div>
+        <ul class="hero-badges">
+          <li><span>✓</span> Pronta consegna</li>
+          <li><span>✓</span> Prezzi all'ingrosso</li>
+          <li><span>✓</span> Consulenza tecnica</li>
+        </ul>
+      </div>
+      <div class="hero-media">
+        <img src="img/magazzino.jpg" alt="Il piazzale EdilTermica con materiale edile" loading="eager" data-bind-src="hero.immagine" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== STATS ===================== -->
+  <section class="stats">
+    <div class="container stats-grid" id="stats-grid">
+      <div class="stat"><strong>2</strong><span>Canali: dettaglio e ingrosso</span></div>
+      <div class="stat"><strong>+ di 20</strong><span>Reparti merceologici</span></div>
+      <div class="stat"><strong>+ di 20.000</strong><span>Articoli</span></div>
+      <div class="stat"><strong>Tutto</strong><span>sotto lo stesso tetto</span></div>
+    </div>
+  </section>
+
+  <!-- ===================== CHI SIAMO ===================== -->
+  <section class="section" id="chi-siamo">
+    <div class="container two-col">
+      <div class="col-media">
+        <div class="media-frame">
+          <img src="img/azienda.jpg" alt="Il piazzale EdilTermica con manufatti in cemento e materiale edile" loading="lazy" data-bind-src="chiSiamo.immagine" />
+        </div>
+      </div>
+      <div class="col-text">
+        <p class="eyebrow" data-bind="chiSiamo.eyebrow">Chi siamo</p>
+        <h2 data-bind="chiSiamo.titolo">Un partner unico per il cantiere e la casa.</h2>
+        <p data-bind="chiSiamo.paragrafo1">
+          EdilTermica Srl rifornisce imprese edili, artigiani e privati con un
+          assortimento completo di materiali. La nostra forza è avere
+          <strong>tutto sotto lo stesso tetto</strong>: niente più fornitori
+          diversi per ogni esigenza.
+        </p>
+        <p data-bind="chiSiamo.paragrafo2">
+          Due punti vendita tra <strong>Puglia e Molise</strong> — Celenza
+          Valfortore (FG) e Gambatesa (CB) — con magazzino capiente, personale
+          competente e servizio su misura: che tu debba ristrutturare un bagno o
+          approvvigionare un cantiere, da noi trovi prodotto, prezzo e consiglio giusto.
+        </p>
+        <a href="#reparti" class="btn btn-outline">Vai ai reparti</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== REPARTI ===================== -->
+  <section class="section section-alt" id="reparti">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow" data-bind="reparti.eyebrow">Cosa trovi da noi</p>
+        <h2 data-bind="reparti.titolo">I nostri reparti</h2>
+        <p class="section-lead" data-bind="reparti.lead">Un assortimento a 360°: dalla materia prima alla finitura, dall'impianto all'arredo.</p>
+      </div>
+
+      <div class="cat-grid" id="reparti-grid">
+        <article class="cat-card"><figure><img src="img/edilizia.jpg" alt="Materiale edile" loading="lazy" /></figure><div class="cat-body"><h3>Materiale edile</h3><p>Cemento, premiscelati cementizi, malte, laterizi, inerti e tutto per struttura e opere murarie.</p></div></article>
+        <article class="cat-card"><figure><img src="img/ferramenta.jpg" alt="Ferramenta e utensili" loading="lazy" /></figure><div class="cat-body"><h3>Ferramenta &amp; utensili</h3><p>Viteria, minuteria, utensili manuali ed elettroutensili delle migliori marche.</p></div></article>
+        <article class="cat-card"><figure><img src="img/pittura.jpg" alt="Pittura, smalti e vernici" loading="lazy" /></figure><div class="cat-body"><h3>Pittura, smalti &amp; vernici</h3><p>Idropitture, smalti, vernici, rasanti e accessori per la tinteggiatura, con tintometro.</p></div></article>
+        <article class="cat-card"><figure><img src="img/cartongesso.jpg" alt="Cartongesso e isolanti" loading="lazy" /></figure><div class="cat-body"><h3>Cartongesso &amp; isolanti</h3><p>Lastre, profili, orditure, isolamento termico e acustico per pareti e controsoffitti.</p></div></article>
+        <article class="cat-card"><figure><img src="img/legnami.jpg" alt="Legnami" loading="lazy" /></figure><div class="cat-body"><h3>Legnami</h3><p>Tavole, travi, pannelli e listelli per carpenteria, edilizia e fai-da-te.</p></div></article>
+        <article class="cat-card"><figure><img src="img/elettrico.jpg" alt="Materiale elettrico" loading="lazy" /></figure><div class="cat-body"><h3>Materiale elettrico</h3><p>Cavi, quadri, frutti, illuminazione e componentistica per ogni impianto.</p></div></article>
+        <article class="cat-card"><figure><img src="img/idraulico.jpg" alt="Idraulica" loading="lazy" /></figure><div class="cat-body"><h3>Idraulica</h3><p>Tubazioni, raccordi, valvolame e tutto per gli impianti idrici e di scarico.</p></div></article>
+        <article class="cat-card"><figure><img src="img/termo.jpg" alt="Termoidraulica e riscaldamento" loading="lazy" /></figure><div class="cat-body"><h3>Termoidraulica &amp; riscaldamento</h3><p>Caldaie, radiatori, pompe di calore e materiale per riscaldamento e climatizzazione.</p></div></article>
+        <article class="cat-card"><figure><img src="img/sanitari.jpg" alt="Sanitari" loading="lazy" /></figure><div class="cat-body"><h3>Sanitari</h3><p>Sanitari, piatti doccia, rubinetteria e accessori per il bagno e la cucina.</p></div></article>
+        <article class="cat-card"><figure><img src="img/bagno.jpg" alt="Arredo bagno" loading="lazy" /></figure><div class="cat-body"><h3>Arredo bagno</h3><p>Mobili, specchiere, box doccia e soluzioni complete per arredare il bagno con stile.</p></div></article>
+        <article class="cat-card"><figure><img src="img/fotovoltaico.jpg" alt="Fotovoltaico ed energie rinnovabili" loading="lazy" /></figure><div class="cat-body"><h3>Fotovoltaico &amp; rinnovabili</h3><p>Moduli, inverter, accumuli e soluzioni per produrre e risparmiare energia.</p></div></article>
+        <article class="cat-card"><figure><img src="img/antinfortunistica.jpg" alt="Abbigliamento antinfortunistico e scarpe da lavoro" loading="lazy" /></figure><div class="cat-body"><h3>Antinfortunistica</h3><p>Abbigliamento da lavoro, scarpe e calzature antinfortunistiche, guanti e DPI per la sicurezza.</p></div></article>
+        <article class="cat-card"><figure><img src="img/pellet.jpg" alt="Stufe e pellet" loading="lazy" /></figure><div class="cat-body"><h3>Pellet &amp; stufe</h3><p>Stufe e termostufe, pellet e legna, canne fumarie e accessori per il riscaldamento a biomassa.</p></div></article>
+        <article class="cat-card"><figure><img src="img/irrigazione.jpg" alt="Sistemi di irrigazione" loading="lazy" /></figure><div class="cat-body"><h3>Irrigazione</h3><p>Irrigatori, ali gocciolanti, tubi, programmatori e raccorderia per giardino e orto.</p></div></article>
+        <article class="cat-card"><figure><img src="img/cartelli.jpg" alt="Cartelli stradali e segnaletica" loading="lazy" /></figure><div class="cat-body"><h3>Cartelli &amp; segnaletica</h3><p>Cartelli stradali, segnaletica di cantiere e di sicurezza per lavori e aree di lavoro.</p></div></article>
+        <article class="cat-card"><figure><img src="img/siderurgici.jpg" alt="Tubolari e prodotti siderurgici" loading="lazy" /></figure><div class="cat-body"><h3>Tubolari &amp; siderurgici</h3><p>Ferro, travi, profilati, tubolari, reti elettrosaldate e tondino per cemento armato.</p></div></article>
+        <article class="cat-card"><figure><img src="img/giardinaggio.jpg" alt="Giardinaggio e agricoltura" loading="lazy" /></figure><div class="cat-body"><h3>Giardinaggio &amp; agricoltura</h3><p>Attrezzi, decespugliatori, pompe per irrorazione, sementi e prodotti per orto e giardino.</p></div></article>
+        <article class="cat-card"><figure><img src="img/casalinghi.jpg" alt="Casalinghi" loading="lazy" /></figure><div class="cat-body"><h3>Casalinghi</h3><p>Pentolame, contenitori, articoli per la pulizia e tutto l'utile per la casa.</p></div></article>
+        <article class="cat-card"><figure><img src="img/pet.jpg" alt="Prodotti per animali" loading="lazy" /></figure><div class="cat-body"><h3>Pet &amp; animali</h3><p>Croccantini per cani e gatti, mangimi, accessori e articoli per l'allevamento.</p></div></article>
+        <article class="cat-card"><figure><img src="img/illuminazione.jpg" alt="Illuminazione" loading="lazy" /></figure><div class="cat-body"><h3>Illuminazione</h3><p>Lampadine LED, plafoniere, fari, strisce e corpi illuminanti per interni ed esterni.</p></div></article>
+        <article class="cat-card cat-card--cta">
+          <div class="cat-body">
+            <h3>E molto altro…</h3>
+            <p>Il nostro assortimento cresce di continuo. Non trovi un prodotto? Chiedi: lo reperiamo per te.</p>
+            <a href="#contatti" class="btn btn-outline btn-sm">Contattaci</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== GALLERIA PUNTO VENDITA ===================== -->
+  <section class="section" id="punto-vendita">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow" data-bind="puntoVendita.eyebrow">Il nostro punto vendita</p>
+        <h2 data-bind="puntoVendita.titolo">Vieni a vedere di persona</h2>
+        <p class="section-lead" data-bind="puntoVendita.lead">Ampio piazzale per i materiali pesanti e negozio rifornito: tutto pronto da ritirare.</p>
+      </div>
+      <div class="gallery-grid" id="gallery-grid">
+        <figure class="g-big"><img src="img/gal-ferramenta.jpg" alt="Reparto ferramenta ed elettroutensili" loading="lazy" /></figure>
+        <figure class="g-cell"><img src="img/gal-casalinghi.jpg" alt="Reparto casalinghi" loading="lazy" /></figure>
+        <figure class="g-cell"><img src="img/gal-giardino.jpg" alt="Reparto giardinaggio e agricoltura" loading="lazy" /></figure>
+        <figure class="g-cell"><img src="img/gal-pet.jpg" alt="Reparto prodotti per animali" loading="lazy" /></figure>
+        <figure class="g-cell"><img src="img/gal-rete.jpg" alt="Reti metalliche e recinzioni nel piazzale" loading="lazy" /></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== DETTAGLIO & INGROSSO ===================== -->
+  <section class="section section-alt" id="dettaglio-ingrosso">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow" data-bind="dettaglioIngrosso.eyebrow">Due modi per servirti</p>
+        <h2 data-bind="dettaglioIngrosso.titolo">Dettaglio e ingrosso</h2>
+      </div>
+      <div class="duo">
+        <div class="duo-card">
+          <span class="duo-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9h18l-1 11a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2L3 9Z"/><path d="M8 9V6a4 4 0 0 1 8 0v3"/></svg>
+          </span>
+          <h3 data-bind="dettaglioIngrosso.card1Titolo">Vendita al dettaglio</h3>
+          <p data-bind="dettaglioIngrosso.card1Testo">
+            Per il privato e il piccolo lavoro: entri, scegli e porti a casa quello
+            che ti serve, con la consulenza di chi conosce i prodotti. Anche piccole
+            quantità, con consigli pratici per il tuo intervento.
+          </p>
+        </div>
+        <div class="duo-card">
+          <span class="duo-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h13l5 5v5h-3M3 7v10h3M3 7 1 5"/><circle cx="8" cy="18" r="2"/><circle cx="18" cy="18" r="2"/></svg>
+          </span>
+          <h3 data-bind="dettaglioIngrosso.card2Titolo">Fornitura all'ingrosso</h3>
+          <p data-bind="dettaglioIngrosso.card2Testo">
+            Per imprese, artigiani e professionisti: prezzi dedicati, condizioni su
+            misura, grandi quantità e <strong>consegna in cantiere</strong>. Un
+            referente unico che segue le tue commesse.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PERCHÉ NOI ===================== -->
+  <section class="section" id="perche">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow" data-bind="perche.eyebrow">I nostri punti di forza</p>
+        <h2 data-bind="perche.titolo">Perché scegliere EdilTermica</h2>
+      </div>
+      <div class="features">
+        <div class="feature">
+          <span class="feature-num">01</span>
+          <h3 data-bind="perche.item1Titolo">Assortimento completo</h3>
+          <p data-bind="perche.item1Testo">Un solo fornitore per edilizia, impianti e finiture: risparmi tempo e gestione.</p>
+        </div>
+        <div class="feature">
+          <span class="feature-num">02</span>
+          <h3 data-bind="perche.item2Titolo">Pronta consegna</h3>
+          <p data-bind="perche.item2Testo">Magazzino capiente e rifornito: i materiali ci sono quando ti servono.</p>
+        </div>
+        <div class="feature">
+          <span class="feature-num">03</span>
+          <h3 data-bind="perche.item3Titolo">Prezzi competitivi</h3>
+          <p data-bind="perche.item3Testo">Condizioni al dettaglio e tariffe dedicate all'ingrosso per chi lavora.</p>
+        </div>
+        <div class="feature">
+          <span class="feature-num">04</span>
+          <h3 data-bind="perche.item4Titolo">Consulenza esperta</h3>
+          <p data-bind="perche.item4Testo">Personale tecnico che ti aiuta a scegliere il prodotto giusto, senza sprechi.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CTA BAND ===================== -->
+  <section class="cta-band">
+    <div class="container cta-inner">
+      <h2 data-bind="ctaBand.titolo">Hai un cantiere o un lavoro in programma?</h2>
+      <p data-bind="ctaBand.testo">Inviaci la lista del materiale: sarà nostra cura preparare un preventivo su misura, con condizioni a te dedicate.</p>
+      <a href="#contatti" class="btn btn-light btn-lg" data-bind="ctaBand.bottone">Richiedi un preventivo</a>
+    </div>
+  </section>
+
+  <!-- ===================== CONTATTI ===================== -->
+  <section class="section" id="contatti">
+    <div class="container two-col contact-col">
+      <div class="col-text">
+        <p class="eyebrow" data-bind="contatti.eyebrow">Contatti</p>
+        <h2 data-bind="contatti.titolo">Vieni a trovarci o scrivici</h2>
+        <p data-bind="contatti.intro">Compila il modulo o usa i recapiti diretti: ti rispondiamo al più presto.</p>
+
+        <ul class="contact-list">
+          <li>
+            <span class="ci">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            </span>
+            <div><strong>Punto vendita</strong><span data-bind="contatti.puntoVenditaIndirizzo">Contrada Varana n. 16 — 86013 Gambatesa (CB)</span></div>
+          </li>
+          <li>
+            <span class="ci">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            </span>
+            <div><strong>Orari</strong><span data-bind="contatti.orari">Lun–Ven 07:00–12:00 / 14:00–18:30 · Sabato 07:00–12:00</span></div>
+          </li>
+          <li>
+            <span class="ci">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg>
+            </span>
+            <div><strong>Telefono</strong><a href="tel:+390874719513" data-tel="contatti.telefonoLink" data-bind="contatti.telefono">0874 719513</a></div>
+          </li>
+          <li>
+            <span class="ci">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
+            </span>
+            <div><strong>Email</strong><a href="mailto:info@ediltermica.srl" data-mailto data-bind="contatti.email">info@ediltermica.srl</a></div>
+          </li>
+          <li>
+            <span class="ci">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>
+            </span>
+            <div><strong>Sito</strong><a href="https://www.ediltermica.srl" target="_blank" rel="noopener" data-bind-href="contatti.sitoUrl" data-bind="contatti.sito">www.ediltermica.srl</a></div>
+          </li>
+        </ul>
+
+        <p class="orari-nota">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg>
+          <span data-bind="contatti.nota">Aperti tutti i giorni: chiusi solo nei <strong>festivi</strong> e il <strong>sabato pomeriggio</strong>.</span>
+        </p>
+      </div>
+
+      <div class="col-form">
+        <div class="contact-form contact-card">
+          <h3 data-bind="contatti.cardTitolo">Scrivici o chiamaci</h3>
+          <p data-bind="contatti.cardTesto">Inviaci la tua richiesta o la lista del materiale: ti rispondiamo al più presto.</p>
+          <a class="btn btn-primary btn-lg btn-block" href="mailto:info@ediltermica.srl?subject=Richiesta%20informazioni%20%2F%20preventivo" data-mailto>
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
+            <span data-bind="contatti.email">info@ediltermica.srl</span>
+          </a>
+          <a class="btn btn-outline btn-lg btn-block" href="tel:+390874719513" data-tel="contatti.telefonoLink">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg>
+            Chiama <span data-bind="contatti.telefono">0874 719513</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="img/logo.png" alt="EdilTermica Srl" class="footer-logo" />
+        <p data-bind="footer.descrizione">Dalle fondamenta alle rifiniture: rivendita di materiale edile al dettaglio e all'ingrosso, tra Puglia e Molise.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Sito</h4>
+        <a href="#chi-siamo">Azienda</a>
+        <a href="#reparti">Reparti</a>
+        <a href="#punto-vendita">Punto vendita</a>
+        <a href="#contatti">Contatti</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contatti</h4>
+        <span data-bind="footer.sedeLegale">Sede legale: Via Lombardi n. 3 — 71035 Celenza Valfortore (FG)</span>
+        <span data-bind="footer.puntoVendita">Punto vendita: C.da Varana n. 16 — 86013 Gambatesa (CB)</span>
+        <a href="tel:+390874719513" data-tel="contatti.telefonoLink" data-bind="contatti.telefono">0874 719513</a>
+        <a href="mailto:info@ediltermica.srl" data-mailto data-bind="contatti.email">info@ediltermica.srl</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <span>© <span id="year">2026</span> EdilTermica S.r.l. · <span data-bind="footer.legal">P.IVA 04481600718 · Reg. Imprese FG-331270</span></span>
+        <span>Tutti i diritti riservati.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/render.js"></script>
+</body>
+</html>

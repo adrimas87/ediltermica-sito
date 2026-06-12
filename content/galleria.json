@@ -1,0 +1,9 @@
+{
+  "items": [
+    { "immagine": "img/gal-ferramenta.jpg", "alt": "Reparto ferramenta ed elettroutensili" },
+    { "immagine": "img/gal-casalinghi.jpg", "alt": "Reparto casalinghi" },
+    { "immagine": "img/gal-giardino.jpg", "alt": "Reparto giardinaggio e agricoltura" },
+    { "immagine": "img/gal-pet.jpg", "alt": "Reparto prodotti per animali" },
+    { "immagine": "img/gal-rete.jpg", "alt": "Reti metalliche e recinzioni nel piazzale" }
+  ]
+}
