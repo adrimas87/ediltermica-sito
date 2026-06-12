@@ -1,8 +1,57 @@
 {
+  "reparti": {
+    "eyebrow": "Cosa trovi da noi",
+    "titolo": "I nostri reparti",
+    "lead": "Un assortimento a 360°: dalla materia prima alla finitura, dall'impianto all'arredo."
+  },
+  "perche": {
+    "eyebrow": "I nostri punti di forza",
+    "item1Titolo": "Assortimento completo",
+    "item2Titolo": "Pronta consegna",
+    "item3Titolo": "Prezzi competitivi",
+    "titolo": "Perché scegliere EdilTermica",
+    "item4Titolo": "Consulenza esperta",
+    "item4Testo": "Personale tecnico che ti aiuta a scegliere il prodotto giusto, senza sprechi.",
+    "item3Testo": "Condizioni al dettaglio e tariffe dedicate all'ingrosso per chi lavora.",
+    "item2Testo": "Magazzino capiente e rifornito: i materiali ci sono quando ti servono.",
+    "item1Testo": "Un solo fornitore per edilizia, impianti e finiture: risparmi tempo e gestione."
+  },
+  "ctaBand": {
+    "titolo": "Hai un cantiere o un lavoro in programma?",
+    "testo": "Inviaci la lista del materiale: sarà nostra cura preparare un preventivo su misura, con condizioni a te dedicate.",
+    "bottone": "Richiedi un preventivo"
+  },
+  "chiSiamo": {
+    "eyebrow": "Chi siamo",
+    "titolo": "Un partner unico per il cantiere e la casa.",
+    "paragrafo1": "EdilTermica Srl rifornisce imprese edili, artigiani e privati con un assortimento completo di materiali. La nostra forza è avere <strong>tutto sotto lo stesso tetto</strong>: niente più fornitori diversi per ogni esigenza.",
+    "paragrafo2": "Due punti vendita tra <strong>Puglia e Molise</strong> — Celenza Valfortore (FG) e Gambatesa (CB) — con magazzino capiente, personale competente e servizio su misura: che tu debba ristrutturare un bagno o approvvigionare un cantiere, da noi trovi prodotto, prezzo e consiglio giusto.",
+    "immagine": "img/azienda.jpg"
+  },
+  "puntoVendita": {
+    "eyebrow": "Il nostro punto vendita",
+    "titolo": "Vieni a vedere di persona",
+    "lead": "Ampio piazzale per i materiali pesanti e negozio rifornito: tutto pronto da ritirare."
+  },
   "manutenzione": {
-    "attiva": true,
+    "attiva": false,
     "titolo": "Sito in aggiornamento",
     "messaggio": "Stiamo aggiornando il nostro sito: torna a trovarci tra poco! Nel frattempo siamo a tua disposizione ai recapiti qui sotto."
+  },
+  "contatti": {
+    "puntoVenditaIndirizzo": "Contrada Varana n. 16 — 86013 Gambatesa (CB)",
+    "cardTitolo": "Scrivici o chiamaci",
+    "eyebrow": "Contatti",
+    "intro": "Compila il modulo o usa i recapiti diretti: ti rispondiamo al più presto.",
+    "cardTesto": "Inviaci la tua richiesta o la lista del materiale: ti rispondiamo al più presto.",
+    "telefonoLink": "+390874719513",
+    "nota": "Aperti tutti i giorni: chiusi solo nei <strong>festivi</strong> e il <strong>sabato pomeriggio</strong>.",
+    "sito": "www.ediltermica.srl",
+    "titolo": "Vieni a trovarci o scrivici",
+    "telefono": "0874 719513",
+    "orari": "Lun–Ven 07:00–12:00 / 14:00–18:30 · Sabato 07:00–12:00",
+    "email": "info@ediltermica.srl",
+    "sitoUrl": "https://www.ediltermica.srl"
   },
   "hero": {
     "eyebrow": "Dalle fondamenta alle rifiniture",
@@ -12,28 +61,11 @@
     "bottonePrimario": "Scopri i reparti",
     "bottoneSecondario": "Richiedi un preventivo"
   },
-  "stats": [
-    { "numero": "2", "label": "Canali: dettaglio e ingrosso" },
-    { "numero": "+ di 20", "label": "Reparti merceologici" },
-    { "numero": "+ di 20.000", "label": "Articoli" },
-    { "numero": "Tutto", "label": "sotto lo stesso tetto" }
-  ],
-  "chiSiamo": {
-    "eyebrow": "Chi siamo",
-    "titolo": "Un partner unico per il cantiere e la casa.",
-    "paragrafo1": "EdilTermica Srl rifornisce imprese edili, artigiani e privati con un assortimento completo di materiali. La nostra forza è avere <strong>tutto sotto lo stesso tetto</strong>: niente più fornitori diversi per ogni esigenza.",
-    "paragrafo2": "Due punti vendita tra <strong>Puglia e Molise</strong> — Celenza Valfortore (FG) e Gambatesa (CB) — con magazzino capiente, personale competente e servizio su misura: che tu debba ristrutturare un bagno o approvvigionare un cantiere, da noi trovi prodotto, prezzo e consiglio giusto.",
-    "immagine": "img/azienda.jpg"
-  },
-  "reparti": {
-    "eyebrow": "Cosa trovi da noi",
-    "titolo": "I nostri reparti",
-    "lead": "Un assortimento a 360°: dalla materia prima alla finitura, dall'impianto all'arredo."
-  },
-  "puntoVendita": {
-    "eyebrow": "Il nostro punto vendita",
-    "titolo": "Vieni a vedere di persona",
-    "lead": "Ampio piazzale per i materiali pesanti e negozio rifornito: tutto pronto da ritirare."
+  "footer": {
+    "descrizione": "Dalle fondamenta alle rifiniture: rivendita di materiale edile al dettaglio e all'ingrosso, tra Puglia e Molise.",
+    "sedeLegale": "Sede legale: Via Lombardi n. 3 — 71035 Celenza Valfortore (FG)",
+    "puntoVendita": "Punto vendita: C.da Varana n. 16 — 86013 Gambatesa (CB)",
+    "legal": "P.IVA 04481600718 · Reg. Imprese FG-331270"
   },
   "dettaglioIngrosso": {
     "eyebrow": "Due modi per servirti",
@@ -43,42 +75,22 @@
     "card2Titolo": "Fornitura all'ingrosso",
     "card2Testo": "Per imprese, artigiani e professionisti: prezzi dedicati, condizioni su misura, grandi quantità e <strong>consegna in cantiere</strong>. Un referente unico che segue le tue commesse."
   },
-  "perche": {
-    "eyebrow": "I nostri punti di forza",
-    "titolo": "Perché scegliere EdilTermica",
-    "item1Titolo": "Assortimento completo",
-    "item1Testo": "Un solo fornitore per edilizia, impianti e finiture: risparmi tempo e gestione.",
-    "item2Titolo": "Pronta consegna",
-    "item2Testo": "Magazzino capiente e rifornito: i materiali ci sono quando ti servono.",
-    "item3Titolo": "Prezzi competitivi",
-    "item3Testo": "Condizioni al dettaglio e tariffe dedicate all'ingrosso per chi lavora.",
-    "item4Titolo": "Consulenza esperta",
-    "item4Testo": "Personale tecnico che ti aiuta a scegliere il prodotto giusto, senza sprechi."
-  },
-  "ctaBand": {
-    "titolo": "Hai un cantiere o un lavoro in programma?",
-    "testo": "Inviaci la lista del materiale: sarà nostra cura preparare un preventivo su misura, con condizioni a te dedicate.",
-    "bottone": "Richiedi un preventivo"
-  },
-  "contatti": {
-    "eyebrow": "Contatti",
-    "titolo": "Vieni a trovarci o scrivici",
-    "intro": "Compila il modulo o usa i recapiti diretti: ti rispondiamo al più presto.",
-    "puntoVenditaIndirizzo": "Contrada Varana n. 16 — 86013 Gambatesa (CB)",
-    "telefono": "0874 719513",
-    "telefonoLink": "+390874719513",
-    "email": "info@ediltermica.srl",
-    "sito": "www.ediltermica.srl",
-    "sitoUrl": "https://www.ediltermica.srl",
-    "orari": "Lun–Ven 07:00–12:00 / 14:00–18:30 · Sabato 07:00–12:00",
-    "nota": "Aperti tutti i giorni: chiusi solo nei <strong>festivi</strong> e il <strong>sabato pomeriggio</strong>.",
-    "cardTitolo": "Scrivici o chiamaci",
-    "cardTesto": "Inviaci la tua richiesta o la lista del materiale: ti rispondiamo al più presto."
-  },
-  "footer": {
-    "descrizione": "Dalle fondamenta alle rifiniture: rivendita di materiale edile al dettaglio e all'ingrosso, tra Puglia e Molise.",
-    "sedeLegale": "Sede legale: Via Lombardi n. 3 — 71035 Celenza Valfortore (FG)",
-    "puntoVendita": "Punto vendita: C.da Varana n. 16 — 86013 Gambatesa (CB)",
-    "legal": "P.IVA 04481600718 · Reg. Imprese FG-331270"
-  }
+  "stats": [
+    {
+      "numero": "2",
+      "label": "Canali: dettaglio e ingrosso"
+    },
+    {
+      "numero": "+ di 20",
+      "label": "Reparti merceologici"
+    },
+    {
+      "numero": "+ di 20.000",
+      "label": "Articoli"
+    },
+    {
+      "numero": "Tutto",
+      "label": "sotto lo stesso tetto"
+    }
+  ]
 }
