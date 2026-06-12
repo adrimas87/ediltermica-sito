@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "immagine": "img/gemini_generated_image_h74555h74555h745.png",
+      "immagine": "img/banco.png",
       "alt": "Banco",
       "formato": "orizzontale"
     },
@@ -14,9 +14,9 @@
       "immagine": "img/banco2.png"
     },
     {
-      "immagine": "img/corr-casal.png",
+      "immagine": "img/corr.png",
       "alt": "Reparto casalinghi",
-      "formato": "orizzontale",
+      "formato": "verticale",
       "posY": 80
     },
     {
