@@ -9,21 +9,6 @@
       "immagine": "img/gal-casalinghi.jpg",
       "alt": "Reparto casalinghi",
       "formato": "verticale"
-    },
-    {
-      "immagine": "img/gal-giardino.jpg",
-      "alt": "Reparto giardinaggio e agricoltura",
-      "formato": "verticale"
-    },
-    {
-      "immagine": "img/gal-pet.jpg",
-      "alt": "Reparto prodotti per animali",
-      "formato": "verticale"
-    },
-    {
-      "immagine": "img/gal-rete.jpg",
-      "alt": "Reti metalliche e recinzioni nel piazzale",
-      "formato": "quadrata"
     }
   ]
 }
