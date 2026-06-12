@@ -1,134 +1,31 @@
 {
   "items": [
-    {
-      "titolo": "Materiale edile",
-      "descrizione": "Cemento, premiscelati cementizi, malte, laterizi, inerti e tutto per struttura e opere murarie.",
-      "immagine": "img/edilizia.jpg"
-    },
-    {
-      "titolo": "Ferramenta & utensili",
-      "descrizione": "Viteria, minuteria, utensili manuali ed elettroutensili delle migliori marche.",
-      "immagine": "img/ferramenta.jpg"
-    },
-    {
-      "titolo": "Pittura, smalti & vernici",
-      "descrizione": "Idropitture, smalti, vernici, rasanti e accessori per la tinteggiatura, con tintometro.",
-      "immagine": "img/pittura.jpg"
-    },
-    {
-      "titolo": "Cartongesso & isolanti",
-      "descrizione": "Lastre, profili, orditure, isolamento termico e acustico per pareti e controsoffitti.",
-      "immagine": "img/cartongesso.jpg"
-    },
-    {
-      "titolo": "Legnami",
-      "descrizione": "Tavole, travi, pannelli e listelli per carpenteria, edilizia e fai-da-te.",
-      "immagine": "img/legnami.jpg"
-    },
-    {
-      "titolo": "Materiale elettrico",
-      "descrizione": "Cavi, quadri, frutti, illuminazione e componentistica per ogni impianto.",
-      "immagine": "img/elettrico.jpg"
-    },
-    {
-      "titolo": "Idraulica",
-      "descrizione": "Tubazioni, raccordi, valvolame e tutto per gli impianti idrici e di scarico.",
-      "immagine": "img/idraulico.jpg"
-    },
-    {
-      "titolo": "Termoidraulica & riscaldamento",
-      "descrizione": "Caldaie, radiatori, pompe di calore e materiale per riscaldamento e climatizzazione.",
-      "immagine": "img/termo.jpg"
-    },
-    {
-      "titolo": "Sanitari",
-      "descrizione": "Sanitari, piatti doccia, rubinetteria e accessori per il bagno e la cucina.",
-      "immagine": "img/sanitari.jpg"
-    },
-    {
-      "titolo": "Arredo bagno",
-      "descrizione": "Mobili, specchiere, box doccia e soluzioni complete per arredare il bagno con stile.",
-      "immagine": "img/bagno.jpg"
-    },
-    {
-      "titolo": "Fotovoltaico & rinnovabili",
-      "descrizione": "Moduli, inverter, accumuli e soluzioni per produrre e risparmiare energia.",
-      "immagine": "img/fotovoltaico.jpg"
-    },
-    {
-      "titolo": "Antinfortunistica",
-      "descrizione": "Abbigliamento da lavoro, scarpe e calzature antinfortunistiche, guanti e DPI per la sicurezza.",
-      "immagine": "img/antinfortunistica-centrosicurezza.it_.jpg"
-    },
-    {
-      "titolo": "Pellet & stufe",
-      "descrizione": "Stufe e termostufe, pellet e legna, canne fumarie e accessori per il riscaldamento a biomassa.",
-      "immagine": "img/pellet.jpg"
-    },
-    {
-      "titolo": "Irrigazione",
-      "descrizione": "Irrigatori, ali gocciolanti, tubi, programmatori e raccorderia per giardino e orto.",
-      "immagine": "img/irrigazione.jpg"
-    },
-    {
-      "titolo": "Cartelli & segnaletica",
-      "descrizione": "Cartelli stradali, segnaletica di cantiere e di sicurezza per lavori e aree di lavoro.",
-      "immagine": "img/cartelli.jpg"
-    },
-    {
-      "titolo": "Tubolari & siderurgici",
-      "descrizione": "Ferro, travi, profilati, tubolari, reti elettrosaldate e tondino per cemento armato.",
-      "immagine": "img/siderurgici.jpg"
-    },
-    {
-      "titolo": "Giardinaggio & agricoltura",
-      "descrizione": "Attrezzi, decespugliatori, pompe per irrorazione, sementi e prodotti per orto e giardino.",
-      "immagine": "img/giardinaggio.jpg"
-    },
-    {
-      "titolo": "Casalinghi",
-      "descrizione": "Pentolame, contenitori, articoli per la pulizia e tutto l'utile per la casa.",
-      "immagine": "img/casalinghi.jpg"
-    },
-    {
-      "titolo": "Pet & animali",
-      "descrizione": "Croccantini per cani e gatti, mangimi, accessori e articoli per l'allevamento.",
-      "immagine": "img/pet.jpg"
-    },
-    {
-      "titolo": "Illuminazione",
-      "descrizione": "Lampadine LED, plafoniere, fari, strisce e corpi illuminanti per interni ed esterni.",
-      "immagine": "img/illuminazione.jpg"
-    },
-    {
-      "titolo": "Canne e tubazioni fumarie",
-      "descrizione": "Canne fumarie, tubi e raccordi inox, comignoli e accessori per stufe, camini e caldaie.",
-      "immagine": "img/tubiinox.jpg"
-    },
-    {
-      "titolo": "Tubature acqua di carico e scarico",
-      "descrizione": "Tubi e raccordi per adduzione idrica e scarichi: multistrato, PE, PVC e accessori.",
-      "immagine": "img/tubi-edil.jpg"
-    },
-    {
-      "titolo": "Gronde e canali",
-      "descrizione": "Grondaie, canali di gronda, pluviali, scossaline e accessori per lo smaltimento delle acque piovane.",
-      "immagine": "img/gronde.jpg"
-    },
-    {
-      "titolo": "Duplicazione chiavi e radiocomandi",
-      "descrizione": "Duplichiamo chiavi di ogni tipo — casa, auto, lucchetti — e radiocomandi per auto, cancelli e garage.",
-      "immagine": "img/chiavi.jpg"
-    },
-    {
-      "titolo": "Smalti",
-      "descrizione": "Smalti per legno e ferro, sintetici e all'acqua, in molte tinte e finiture: lucido, satinato, opaco.",
-      "immagine": "img/smalti.jpg"
-    },
-    {
-      "titolo": "Porte e portoni blindati",
-      "descrizione": "Porte da interno e portoni blindati, serrature e accessori per la massima protezione.",
-      "immagine": "img/porte.jpg"
-    }
+    { "titolo": "Materiale edile", "descrizione": "Cemento, premiscelati cementizi, malte, laterizi, inerti e tutto per struttura e opere murarie.", "immagine": "img/edilizia.jpg" },
+    { "titolo": "Ferramenta & utensili", "descrizione": "Viteria, minuteria, utensili manuali ed elettroutensili delle migliori marche.", "immagine": "img/ferramenta.jpg" },
+    { "titolo": "Pittura, smalti & vernici", "descrizione": "Idropitture, smalti, vernici, rasanti e accessori per la tinteggiatura, con tintometro.", "immagine": "img/pittura.jpg" },
+    { "titolo": "Cartongesso & isolanti", "descrizione": "Lastre, profili, orditure, isolamento termico e acustico per pareti e controsoffitti.", "immagine": "img/cartongesso.jpg" },
+    { "titolo": "Legnami", "descrizione": "Tavole, travi, pannelli e listelli per carpenteria, edilizia e fai-da-te.", "immagine": "img/legnami.jpg" },
+    { "titolo": "Materiale elettrico", "descrizione": "Cavi, quadri, frutti, illuminazione e componentistica per ogni impianto.", "immagine": "img/elettrico.jpg" },
+    { "titolo": "Idraulica", "descrizione": "Tubazioni, raccordi, valvolame e tutto per gli impianti idrici e di scarico.", "immagine": "img/idraulico.jpg" },
+    { "titolo": "Termoidraulica & riscaldamento", "descrizione": "Caldaie, radiatori, pompe di calore e materiale per riscaldamento e climatizzazione.", "immagine": "img/termo.jpg" },
+    { "titolo": "Sanitari", "descrizione": "Sanitari, piatti doccia, rubinetteria e accessori per il bagno e la cucina.", "immagine": "img/sanitari.jpg" },
+    { "titolo": "Arredo bagno", "descrizione": "Mobili, specchiere, box doccia e soluzioni complete per arredare il bagno con stile.", "immagine": "img/bagno.jpg" },
+    { "titolo": "Fotovoltaico & rinnovabili", "descrizione": "Moduli, inverter, accumuli e soluzioni per produrre e risparmiare energia.", "immagine": "img/fotovoltaico.jpg" },
+    { "titolo": "Antinfortunistica", "descrizione": "Abbigliamento da lavoro, scarpe e calzature antinfortunistiche, guanti e DPI per la sicurezza.", "immagine": "img/antinfortunistica-centrosicurezza.it_.jpg" },
+    { "titolo": "Pellet & stufe", "descrizione": "Stufe e termostufe, pellet e legna, canne fumarie e accessori per il riscaldamento a biomassa.", "immagine": "img/pellet.jpg" },
+    { "titolo": "Irrigazione", "descrizione": "Irrigatori, ali gocciolanti, tubi, programmatori e raccorderia per giardino e orto.", "immagine": "img/irrigazione.jpg" },
+    { "titolo": "Cartelli & segnaletica", "descrizione": "Cartelli stradali, segnaletica di cantiere e di sicurezza per lavori e aree di lavoro.", "immagine": "img/cartelli.jpg" },
+    { "titolo": "Tubolari & siderurgici", "descrizione": "Ferro, travi, profilati, tubolari, reti elettrosaldate e tondino per cemento armato.", "immagine": "img/siderurgici.jpg" },
+    { "titolo": "Giardinaggio & agricoltura", "descrizione": "Attrezzi, decespugliatori, pompe per irrorazione, sementi e prodotti per orto e giardino.", "immagine": "img/giardinaggio.jpg" },
+    { "titolo": "Casalinghi", "descrizione": "Pentolame, contenitori, articoli per la pulizia e tutto l'utile per la casa.", "immagine": "img/casalinghi.jpg" },
+    { "titolo": "Pet & animali", "descrizione": "Croccantini per cani e gatti, mangimi, accessori e articoli per l'allevamento.", "immagine": "img/pet.jpg" },
+    { "titolo": "Illuminazione", "descrizione": "Lampadine LED, plafoniere, fari, strisce e corpi illuminanti per interni ed esterni.", "immagine": "img/illuminazione.jpg" },
+    { "titolo": "Canne e tubazioni fumarie", "descrizione": "Canne fumarie, tubi e raccordi inox, comignoli e accessori per stufe, camini e caldaie.", "immagine": "img/tubiinox.jpg" },
+    { "titolo": "Tubature acqua di carico e scarico", "descrizione": "Tubi e raccordi per adduzione idrica e scarichi: multistrato, PE, PVC e accessori.", "immagine": "img/tubi-edil.jpg" },
+    { "titolo": "Gronde e canali", "descrizione": "Grondaie, canali di gronda, pluviali, scossaline e accessori per lo smaltimento delle acque piovane.", "immagine": "img/gronde.jpg" },
+    { "titolo": "Duplicazione chiavi e radiocomandi", "descrizione": "Duplichiamo chiavi di ogni tipo — casa, auto, lucchetti — e radiocomandi per auto, cancelli e garage.", "immagine": "img/chiavi.jpg" },
+    { "titolo": "Smalti", "descrizione": "Smalti per legno e ferro, sintetici e all'acqua, in molte tinte e finiture: lucido, satinato, opaco.", "immagine": "img/smalti.jpg" },
+    { "titolo": "Porte e portoni blindati", "descrizione": "Porte da interno e portoni blindati, serrature e accessori per la massima protezione.", "immagine": "img/porte.jpg" },
+    { "titolo": "Piastrelle e rivestimenti", "descrizione": "Piastrelle, gres e ceramica per pavimenti e pareti, rivestimenti per bagno e cucina.", "immagine": "img/piastrelle.jpg" }
   ]
 }
