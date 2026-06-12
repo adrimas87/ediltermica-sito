@@ -1,12 +1,6 @@
 {
   "items": [
     {
-      "immagine": "img/corr.png",
-      "alt": "Reparto casalinghi",
-      "formato": "verticale",
-      "posY": 80
-    },
-    {
       "immagine": "img/banco.png",
       "alt": "Banco",
       "formato": "orizzontale"
@@ -18,6 +12,12 @@
       "zoom": 100,
       "alt": "banco 2",
       "immagine": "img/banco2.png"
+    },
+    {
+      "immagine": "img/corr.png",
+      "alt": "Reparto casalinghi",
+      "formato": "verticale",
+      "posY": 80
     },
     {
       "formato": "orizzontale",
