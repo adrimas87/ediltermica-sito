@@ -177,7 +177,7 @@
     ov.className = 'maint-overlay';
     ov.innerHTML =
       '<div class="maint-card">' +
-        '<img class="maint-logo" src="img/logo.png" alt="EdilTermica Srl" />' +
+        '<img class="maint-logo" src="' + (D.logo || 'img/logo-2026.png') + '" alt="EdilTermica Srl" />' +
         '<span class="maint-badge">' + (m.titolo || 'Sito in aggiornamento') + '</span>' +
         '<p class="maint-msg">' + (m.messaggio || '') + '</p>' +
         (bottoni ? '<div class="maint-cta">' + bottoni + '</div>' : '') +
@@ -216,6 +216,7 @@
     }
     if (reparti && reparti.items) buildReparti(reparti.items);
     if (galleria && galleria.items) buildGalleria(galleria.items);
+    if (window.etReveal) window.etReveal(document);
     setupMailto(site && site.contatti ? site.contatti.email : null);
   });
 })();
